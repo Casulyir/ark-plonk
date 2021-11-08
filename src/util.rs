@@ -77,7 +77,8 @@ pub fn get_domain_attrs<F: FftField>(
     }
 }
 
-// Get a representation of an embedded curve scalar as a scalar of the pairing friendly curve
+// Get a representation of an embedded curve scalar as a scalar of the pairing
+// friendly curve
 pub fn from_embedded_curve_scalar<
     E: PairingEngine,
     P: TEModelParameters<BaseField = E::Fr>,
